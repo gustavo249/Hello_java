@@ -3,7 +3,11 @@
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello my friend !");
-        System.out.println("Java is interesting !");
+        int n = 2;
+        byte c = 5;
+        short s = 4;
+        long l = 5000L + 10 * (n + c + s);
+        System.out.println("long total = " + l);
     }
 }
++++--
